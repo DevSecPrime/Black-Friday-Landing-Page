@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+}
+body
+{
+padding-bottom: 12px;
+background-image: url("phone.jpg");
+background-repeat: no-repeat;
+height:100%;
+width: 1023px;
+background-size: cover;
+}
+a{
+text-decoration: none;
+color: azure;
+font-size: large;
+font-weight: bold;
+}
+#navbar
+{
+margin-top: 20px;
+border: 2px solid grey;
+background-color: rgb(179, 175, 175);
+margin-left:70px;
+width: 580px;
+border-radius: 120px;
+}
+#navbar ul
+{
+display: flex;
+list-style: none;
+flex-direction: row;
+}
+li{
+
+margin: 12px;
+padding: 10px;
+color: azure;
+font-size: large;
+font-weight: bold;
+}
+a:hover
+{
+background-color: darkgray;
+color: black;
+}
+#search
+{
+border-left: 2px solid azure;
+padding-left: 12px;
+}
+#main
+{
+position: relative;
+left: 225px;
+top: 100px;
+}
+#Cont1
+{
+font-size: 35px;
+color: azure;
+font-weight: bolder;
+margin: 19px;
+}
+#Cont2
+{
+margin: 15px;
+font-size: 25px;
+color: azure;
+font-weight: 500;
+}
+#Cont3
+{
+margin: 15px;
+font-size: medium;
+color: azure;
+font-weight: 200;
+width: 300px;
+
+text-align: justify;
+}
+input
+{
+margin: 25px;
+border-radius: 50px;
+color: azure;
+background-color: blueviolet;
+padding: 13px;
+align-items: center;
+position: relative;
+left: 70px;
+}
+input:hover
+{
+background-color: darkgrey;
+}
+#website
+{
+position: absolute;
+left:70px;
+font-size: larger;
+}
+footer div
+{ color: azure;
+margin-top: 12px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+div span
+{
+color: azure;
+}
+#icon
+{
+display: inline;
+left: 10px;
+margin: 12px;
+}
